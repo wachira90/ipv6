@@ -4,11 +4,11 @@ ipv6 implement
 ## class
 
 ````
-fe80::/x => 127.0.0.1
+fe80::/x => localhost ip 127.0.0.1
 
 fc00::/64 => private ip 192.168.x.x
 
-2xxx::/64 = public IP
+2xxx::/64 = public ip
 
 ````
 
