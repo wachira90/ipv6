@@ -33,5 +33,5 @@ for new ipv6 => fd01::c0a8:637
 nano /etc/hosts.deny
 
 nginx : .internettl.org
-sshd : ALL EXCEPT 192.168.4.0/24 [fc00:1000::]/64
+sshd : ALL EXCEPT 192.168.4.0/24 [fc00:1000:0:1::]/64
 ````
