@@ -16,7 +16,15 @@ fc00::/64 => private ip 192.168.x.x
 
 ````
 old IP => 192.168.1.55
-ping fc00::192.168.1.55
+
+C:\Users\admin>ping fd01::192.168.6.55
+Pinging fd01::c0a8:637 with 32 bytes of data:
+Control-C
+^C
+C:\Users\admin>
+
+for new ipv6 => fd01::c0a8:637
+
 ````
 
 ## allow limit ssh /etc/hosts.deny
